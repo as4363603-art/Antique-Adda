@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Antique Adda — Discover timeless treasures and exquisite antique collections. Premium vintage furniture, art, and decor curated for collectors and connoisseurs.">
+    <title>Antique Adda — Timeless Treasures & Exquisite Antiques</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ==============================
+         NAVIGATION BAR
+    ============================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#hero" class="nav-logo">
+                <i class="fas fa-landmark"></i>
+                <span>Antique Adda</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#collections" class="nav-link">Collections</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Right-side controls -->
+            <div class="nav-controls">
+                <!-- Dark / Light Mode Toggle -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+
+                <!-- Mobile Hamburger -->
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==============================
+         HERO SECTION
+    ============================== -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <p class="hero-subtitle">— Est. 1987 —</p>
+            <h1 class="hero-title">Antique Adda</h1>
+            <p class="hero-tagline">Discover Timeless Treasures &amp; Exquisite Vintage Collections</p>
+            <a href="#gallery" class="btn btn-primary hero-btn">
+                <i class="fas fa-shopping-bag"></i> Shop Now
+            </a>
+        </div>
+        <!-- Decorative scroll indicator -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================
+         ABOUT US SECTION
+    ============================== -->
+    <section class="section about" id="about">
+        <div class="container about-grid">
+            <!-- Image side -->
+            <div class="about-image reveal reveal-left">
+                <img src="images/about-antiques.png" alt="Curated antique collection on display" loading="lazy">
+                <div class="about-image-badge">
+                    <span class="badge-number">35+</span>
+                    <span class="badge-text">Years of Excellence</span>
+                </div>
+            </div>
+            <!-- Text side -->
+            <div class="about-text reveal reveal-right">
+                <p class="section-label">Our Story</p>
+                <h2 class="section-title">About <span class="gold">Antique Adda</span></h2>
+                <p class="about-description">
+                    For over three decades, Antique Adda has been the premier destination for discerning collectors
+                    and enthusiasts seeking authentic, museum-quality antiques. Our passion lies in preserving history —
+                    one exquisite piece at a time.
+                </p>
+                <p class="about-description">
+                    Every item in our curated collection is hand-selected by our team of expert appraisers,
+                    ensuring authenticity, provenance, and exceptional craftsmanship. From rare Victorian furniture
+                    to ornate Art Deco jewelry, we bring the world's finest antiques to your doorstep.
+                </p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">5,000+</span>
+                        <span class="stat-label">Pieces Curated</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2,500+</span>
+                        <span class="stat-label">Happy Collectors</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Countries Served</span>
+                    </div>
+                </div>
+                <a href="#gallery" class="btn btn-secondary">Explore Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================
+         PRODUCT GALLERY SECTION
+    ============================== -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Curated Selection</p>
+                <h2 class="section-title">Our <span class="gold">Exclusive</span> Gallery</h2>
+                <p class="section-subtitle">Each piece tells a story — timeless, authentic, and one-of-a-kind.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Product 1 -->
+                <div class="product-card reveal" id="product-1">
+                    <div class="product-image-wrap">
+                        <img src="images/product-clock.png" alt="Victorian Grandfather Clock" loading="lazy">
+                        <div class="product-overlay">
+                            <a href="#" class="product-action"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="product-action"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                        <span class="product-badge">Rare</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Victorian Grandfather Clock</h3>
+                        <p class="product-era">Circa 1870 · England</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$4,850</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card reveal" id="product-2">
+                    <div class="product-image-wrap">
+                        <img src="images/product-vase.png" alt="Ming Dynasty Porcelain Vase" loading="lazy">
+                        <div class="product-overlay">
+                            <a href="#" class="product-action"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="product-action"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                        <span class="product-badge">Exclusive</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Ming Dynasty Porcelain Vase</h3>
+                        <p class="product-era">Circa 1450 · China</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$12,300</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card reveal" id="product-3">
+                    <div class="product-image-wrap">
+                        <img src="images/product-mirror.png" alt="Baroque Gilded Mirror" loading="lazy">
+                        <div class="product-overlay">
+                            <a href="#" class="product-action"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="product-action"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                        <span class="product-badge">Featured</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Baroque Gilded Mirror</h3>
+                        <p class="product-era">Circa 1720 · France</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$7,200</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card reveal" id="product-4">
+                    <div class="product-image-wrap">
+                        <img src="images/product-lamp.png" alt="Art Nouveau Tiffany Lamp" loading="lazy">
+                        <div class="product-overlay">
+                            <a href="#" class="product-action"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="product-action"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                        <span class="product-badge">Popular</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Art Nouveau Tiffany Lamp</h3>
+                        <p class="product-era">Circa 1905 · USA</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$3,600</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card reveal" id="product-5">
+                    <div class="product-image-wrap">
+                        <img src="images/product-cabinet.png" alt="Victorian Display Cabinet" loading="lazy">
+                        <div class="product-overlay">
+                            <a href="#" class="product-action"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="product-action"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Victorian Display Cabinet</h3>
+                        <p class="product-era">Circa 1860 · England</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$6,450</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card reveal" id="product-6">
+                    <div class="product-image-wrap">
+                        <img src="images/product-jewelry.png" alt="Antique Jewelry Box" loading="lazy">
+                        <div class="product-overlay">
+                            <a href="#" class="product-action"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="product-action"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                        <span class="product-badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Ornate Jewelry Casket</h3>
+                        <p class="product-era">Circa 1890 · Austria</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$2,100</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-cta reveal">
+                <a href="#" class="btn btn-secondary">View Full Collection <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================
+         FEATURED COLLECTIONS SECTION
+    ============================== -->
+    <section class="section collections" id="collections">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Curated For You</p>
+                <h2 class="section-title">Featured <span class="gold">Collections</span></h2>
+                <p class="section-subtitle">Explore our hand-picked categories of the world's finest antiques.</p>
+            </div>
+
+            <div class="collections-grid">
+                <div class="collection-card reveal" id="collection-1">
+                    <div class="collection-icon"><i class="fas fa-couch"></i></div>
+                    <h3 class="collection-name">Heritage Furniture</h3>
+                    <p class="collection-desc">Mahogany tables, carved armoires, and regal seating from the 18th & 19th centuries.</p>
+                    <span class="collection-count">120+ Items</span>
+                    <a href="#" class="collection-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="collection-card reveal" id="collection-2">
+                    <div class="collection-icon"><i class="fas fa-gem"></i></div>
+                    <h3 class="collection-name">Vintage Jewelry</h3>
+                    <p class="collection-desc">Art Deco brooches, Victorian lockets, and Edwardian diamond rings of exceptional beauty.</p>
+                    <span class="collection-count">85+ Items</span>
+                    <a href="#" class="collection-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="collection-card reveal" id="collection-3">
+                    <div class="collection-icon"><i class="fas fa-palette"></i></div>
+                    <h3 class="collection-name">Fine Art & Paintings</h3>
+                    <p class="collection-desc">Original oil paintings, lithographs, and watercolors from renowned European masters.</p>
+                    <span class="collection-count">60+ Items</span>
+                    <a href="#" class="collection-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="collection-card reveal" id="collection-4">
+                    <div class="collection-icon"><i class="fas fa-clock"></i></div>
+                    <h3 class="collection-name">Horology</h3>
+                    <p class="collection-desc">Grandfather clocks, pocket watches, and mantel timepieces from the world's finest ateliers.</p>
+                    <span class="collection-count">45+ Items</span>
+                    <a href="#" class="collection-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================
+         TESTIMONIALS SECTION
+    ============================== -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">What Our Collectors Say</p>
+                <h2 class="section-title">Client <span class="gold">Testimonials</span></h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal" id="testimonial-1">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The Victorian writing desk I purchased from Antique Adda is absolutely magnificent. 
+                        The craftsmanship, the patina — it's a museum-worthy piece. Their authentication process 
+                        gave me complete confidence in my purchase."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div>
+                            <h4 class="author-name">Margaret Whitfield</h4>
+                            <p class="author-title">Private Collector, London</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal" id="testimonial-2">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "I've been collecting antiques for 20 years, and Antique Adda's selection is unparalleled. 
+                        Their team's knowledge and passion for preservation is evident in every transaction. 
+                        Highly recommended for serious collectors."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div>
+                            <h4 class="author-name">Jonathan Hargrove</h4>
+                            <p class="author-title">Antiques Dealer, New York</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal" id="testimonial-3">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The Art Deco chandelier I ordered arrived in flawless condition — beautifully packaged 
+                        with a certificate of authenticity. Antique Adda treats every piece like a treasure. 
+                        I will definitely be returning for more."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div>
+                            <h4 class="author-name">Sofia Martinelli</h4>
+                            <p class="author-title">Interior Designer, Milan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================
+         CONTACT SECTION
+    ============================== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Get In Touch</p>
+                <h2 class="section-title">Contact <span class="gold">Us</span></h2>
+                <p class="section-subtitle">Have a question about a piece, or want a private viewing? We'd love to hear from you.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <form class="contact-form reveal reveal-left" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="formName">Full Name <span class="required">*</span></label>
+                        <input type="text" id="formName" name="name" placeholder="e.g. John Whitmore" required>
+                        <span class="error-msg" id="nameError"></span>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="formEmail">Email Address <span class="required">*</span></label>
+                            <input type="email" id="formEmail" name="email" placeholder="john@example.com" required>
+                            <span class="error-msg" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="formPhone">Phone Number</label>
+                            <input type="tel" id="formPhone" name="phone" placeholder="+1 (555) 123-4567">
+                            <span class="error-msg" id="phoneError"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="formSubject">Subject</label>
+                        <select id="formSubject" name="subject">
+                            <option value="" disabled selected>Select a subject...</option>
+                            <option value="inquiry">General Inquiry</option>
+                            <option value="purchase">Purchase Inquiry</option>
+                            <option value="appraisal">Appraisal Request</option>
+                            <option value="consignment">Consignment</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="formMessage">Message <span class="required">*</span></label>
+                        <textarea id="formMessage" name="message" rows="5" placeholder="Tell us about the piece you're looking for..." required></textarea>
+                        <span class="error-msg" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    <!-- Success message -->
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Thank you! Your message has been sent successfully. We'll get back to you shortly.</p>
+                    </div>
+                </form>
+
+                <!-- Contact Information -->
+                <div class="contact-info reveal reveal-right">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Visit Our Gallery</h4>
+                            <p>42 Heritage Lane, Mayfair<br>London, W1K 3AB, United Kingdom</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+44 (0) 20 7946 0958<br>Mon–Sat: 10:00 AM – 7:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>hello@antiqueadda.com<br>appraisals@antiqueadda.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-globe"></i></div>
+                        <div>
+                            <h4>Worldwide Shipping</h4>
+                            <p>We ship insured antiques to<br>50+ countries worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================
+         FOOTER
+    ============================== -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <i class="fas fa-landmark"></i> Antique Adda
+                    </a>
+                    <p class="footer-about">
+                        Preserving history, one exquisite piece at a time. 
+                        Your trusted destination for authenticated, museum-quality antiques since 1987.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#gallery">Our Gallery</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Appraisal Services</a></li>
+                        <li><a href="#">Restoration</a></li>
+                        <li><a href="#">Consignment</a></li>
+                        <li><a href="#">Private Viewings</a></li>
+                        <li><a href="#">Insurance Valuations</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Newsletter</h4>
+                    <p class="footer-newsletter-text">Subscribe to receive updates on new arrivals and exclusive offers.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Antique Adda. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
